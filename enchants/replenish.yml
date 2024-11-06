@@ -1,0 +1,19 @@
+display-name: "补充"
+description: "作物自动重新种植"
+type: normal
+
+targets:
+  - hoe
+conflicts: [ ]
+rarity: legendary
+max-level: 1
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+conditions: [ ]
+
+consume-seeds: true # 如果在重新种植时应该消耗种子
+
+only-fully-grown: false # 如果只有完全成熟的作物应该被重新种植

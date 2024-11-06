@@ -1,0 +1,23 @@
+display-name: "生命偷取"
+description: "治疗造成的伤害的&a%placeholder%%&r"
+placeholder: "%level% * 10"
+type: normal
+
+targets:
+  - sword
+conflicts: [ ]
+rarity: rare
+max-level: 6
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: give_health
+    args:
+      amount: "%v% * (%level% * 0.1)"
+    triggers:
+      - melee_attack
+
+conditions: [ ]

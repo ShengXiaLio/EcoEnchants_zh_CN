@@ -1,0 +1,23 @@
+display-name: "团结就是力量"
+description: "增加伤害&a%placeholder%%&r，但与其他所有附魔冲突"
+placeholder: "500"
+type: special
+
+targets:
+  - sword
+  - axe
+conflicts:
+  - everything
+rarity: veryspecial
+max-level: 1
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: damage_multiplier
+    args:
+      multiplier: 5
+    triggers:
+      - melee_attack

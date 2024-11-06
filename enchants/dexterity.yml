@@ -1,0 +1,22 @@
+display-name: "敏捷"
+description: "攻击速度增加&a%placeholder%%"
+placeholder: "%level% * 10"
+type: normal
+
+targets:
+  - sword
+  - axe
+conflicts: []
+rarity: epic
+max-level: 2
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: attack_speed_multiplier
+    args:
+      multiplier: "1 + 0.1 * %level%"
+
+conditions: [ ]

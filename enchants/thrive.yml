@@ -1,0 +1,21 @@
+display-name: "生机"
+description: "增加&a%placeholder%&r额外生命值"
+placeholder: "%level%"
+type: normal
+
+targets:
+  - armor
+conflicts: [ ]
+rarity: legendary
+max-level: 2
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: bonus_health
+    args:
+      health: "%level%"
+
+conditions: [ ]

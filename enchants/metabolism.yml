@@ -1,0 +1,19 @@
+display-name: "新陈代谢"
+description: "通过吃食物获得的饥饿度增加&a%placeholder%%"
+placeholder: "%level% * 12.5"
+type: normal
+
+targets:
+  - chestplate
+conflicts: [ ]
+rarity: legendary
+max-level: 2
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: food_multiplier
+    args:
+      multiplier: "1 * %level% * 0.125"

@@ -1,0 +1,23 @@
+display-name: "地狱之触"
+description: "自动熔炼挖掘的方块"
+type: normal
+
+targets:
+  - pickaxe
+conflicts:
+  - silk_touch
+rarity: legendary
+max-level: 1
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: autosmelt
+    args:
+      drop_xp: true
+    triggers:
+      - block_item_drop
+
+conditions: [ ]

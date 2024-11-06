@@ -1,0 +1,306 @@
+# 稀有度选项不会影响原版附魔。
+# 这个选项是为了在显示选项中按稀有度排序。
+
+protection:
+  name: "保护"
+  description: "减少受到的伤害 &a%placeholder%%"
+  placeholder: "%level% * 4"
+  type: normal
+  rarity: common
+  #max-level: 6 # 自定义最大等级以覆盖该附魔。提高它，但降低它可能会导致错误。
+  #conflicts: [] # 自定义冲突以覆盖该附魔。随意添加或移除冲突。
+
+fire_protection:
+  name: "火焰保护"
+  description: "减少火焰伤害 &a%damage%%&r 和燃烧时间 &a%time%%"
+  placeholders:
+    damage: "%level% * 8"
+    time: "%level% * 15"
+  type: normal
+  rarity: uncommon
+
+feather_falling:
+  name: "摔落保护"
+  description: "减少摔落伤害 &a%placeholder%%"
+  placeholder: "%level% * 12"
+  type: normal
+  rarity: uncommon
+
+blast_protection:
+  name: "爆炸保护"
+  description: "减少爆炸伤害 &a%damage%%&r 和爆炸击退 &a%knockback%%"
+  placeholders:
+    damage: "%level% * 8"
+    knockback: "%level% * 15"
+  type: normal
+  rarity: rare
+
+projectile_protection:
+  name: "弹射物保护"
+  description: "减少受到的弹射物伤害 &a%placeholder%%"
+  placeholder: "%level% * 8"
+  type: normal
+  rarity: uncommon
+
+respiration:
+  name: "水下呼吸"
+  description: "延长水下呼吸时间 &a%seconds%&r 秒，并有 &a%chance%%&r 的几率无视溺水伤害"
+  placeholders:
+    seconds: "15 * %level%"
+    chance: "%level% / (%level% + 1)"
+  type: normal
+  rarity: rare
+
+aqua_affinity:
+  name: "水下速掘"
+  description: "使玩家在水下挖掘方块的速度与在陆地上时一样"
+  type: normal
+  rarity: rare
+
+thorns:
+  name: "荆棘"
+  description: "给予 &a%placeholder%%&r 的几率将部分受到的伤害反射给攻击者"
+  placeholder: "%level% * 15"
+  type: normal
+  rarity: epic
+
+depth_strider:
+  name: "深海探索者"
+  description: "增加 &a%placeholder%% 的水下移动速度"
+  placeholder: "%level% * 33.333333"
+  type: normal
+  rarity: rare
+
+frost_walker:
+  name: "冰霜行者"
+  description: "在玩家周围 &a%placeholder%&r 格范围内的水源转化为冰"
+  placeholder: "%level% + 2"
+  type: normal
+  rarity: rare
+
+binding_curse:
+  name: "绑定诅咒"
+  description: "装备的物品无法从护甲槽中移除"
+  type: curse
+  rarity: epic
+
+sharpness:
+  name: "锋利"
+  description: "增加 &a%placeholder%&r 的近战伤害"
+  placeholder: "0.5 * %level% + 1"
+  type: normal
+  rarity: common
+
+smite:
+  name: "亡灵杀手"
+  description: "对亡灵生物增加 &a%placeholder%&r 的近战伤害"
+  placeholder: "2.5 * %level%"
+  type: normal
+  rarity: uncommon
+
+bane_of_arthropods:
+  name: "节肢杀手"
+  description: "对节肢生物增加 &a%damage%&r 的近战伤害，并给予最多 &a%seconds%&r 秒的迟缓 IV"
+  placeholders:
+    damage: "2.5 * %level%"
+    seconds: "0.5 * %level%"
+  type: normal
+  rarity: uncommon
+
+knockback:
+  name: "击退"
+  description: "增加 &a%placeholder%%&r 的攻击击退"
+  placeholder: "%level% * 85 + 20"
+  type: normal
+  rarity: uncommon
+
+fire_aspect:
+  name: "火焰附加"
+  description: "使对手着火，持续 &a4&r 秒，每次火焰伤害 &a%placeholder%&r"
+  placeholder: "(%level% * 4) - 1"
+  type: normal
+  rarity: rare
+
+looting:
+  name: "抢夺"
+  description: "增加最大普通掉落 &a%common%&r，并增加稀有掉落的几率 &a%rare%%"
+  placeholders:
+    common: "%level%"
+    rare: "%level%"
+  type: normal
+  rarity: rare
+
+# Pre-1.21
+sweeping:
+  name: "横扫之刃"
+  description: "增加横扫攻击伤害 &a%placeholder%%"
+  placeholder: "%level% / (%level% + 1)"
+  type: normal
+  rarity: rare
+
+# 1.21+
+sweeping_edge:
+  name: "横扫之刃"
+  description: "增加横扫攻击伤害 &a%placeholder%%"
+  placeholder: "%level% / (%level% + 1)"
+  type: normal
+  rarity: rare
+
+efficiency:
+  name: "效率"
+  description: "增加挖掘速度 &a%placeholder%%"
+  placeholder: "20 + 5 * %level%"
+  type: normal
+  rarity: common
+
+silk_touch:
+  name: "精准采集"
+  description: "挖掘的方块会完整掉落，掉落其本身"
+  type: normal
+  rarity: epic
+
+unbreaking:
+  name: "耐久"
+  description: "增加物品耐久度 &a%placeholder%x"
+  placeholder: "%level% + 1"
+  type: normal
+  rarity: uncommon
+
+fortune:
+  name: "时运"
+  description: "增加特定方块掉落的几率 &a%placeholder%%"
+  placeholder: "ceil(((1 / (%level% + 2)) + ((%level% + 1) / 2)) * 100 - 100)"
+  type: normal
+  rarity: rare
+
+power:
+  name: "力量"
+  description: "增加 &a%placeholder%%&r 的箭矢伤害"
+  placeholder: "25 * (%level% + 1)"
+  type: normal
+  rarity: common
+
+punch:
+  name: "冲击"
+  description: "增加箭矢击退 &a%placeholder%&r 格"
+  placeholder: "3 * %level%"
+  type: normal
+  rarity: rare
+
+flame:
+  name: "火矢"
+  description: "箭矢使目标着火，造成 &a5&r 火焰伤害"
+  type: normal
+  rarity: rare
+
+infinity:
+  name: "无限"
+  description: "射击时普通箭矢不会被消耗"
+  type: normal
+  rarity: epic
+
+luck_of_the_sea:
+  name: "海之眷顾"
+  description: "增加钓鱼获得宝藏的几率 &a%placeholder%%"
+  placeholder: "2 * %level%"
+  type: normal
+  rarity: rare
+
+lure:
+  name: "饵钓"
+  description: "减少钓鱼等待时间 &a%placeholder%&r 秒"
+  placeholder: "%level% * 5"
+  type: normal
+  rarity: rare
+
+loyalty:
+  name: "忠诚"
+  description: "三叉戟投掷后会返回"
+  type: normal
+  rarity: uncommon
+
+impaling:
+  name: "穿刺"
+  description: "对海洋生物增加 &a%placeholder%&r 的额外伤害"
+  placeholder: "%level% * 2.5"
+  type: normal
+  rarity: rare
+
+riptide:
+  name: "激流"
+  description: "在水下或雨天投掷三叉戟时会推动玩家"
+  type: normal
+  rarity: rare
+
+channeling:
+  name: "引雷"
+  description: "在雷雨天三叉戟落地时引发闪电"
+  type: normal
+  rarity: epic
+
+multishot:
+  name: "多重射击"
+  description: "一次射出 3 支箭矢，对烟花和药水箭生效"
+  type: normal
+  rarity: rare
+
+quick_charge:
+  name: "快速装填"
+  description: "减少十字弩装填时间 &a%placeholder%&r 秒"
+  placeholder: "%level% * 0.25"
+  type: normal
+  rarity: uncommon
+
+piercing:
+  name: "穿透"
+  description: "箭矢穿透 &a%placeholder%&r 个实体，对闭壳的潜影贝无效"
+  placeholder: "%level% + 1"
+  type: normal
+  rarity: common
+
+mending:
+  name: "经验修补"
+  description: "在获取经验球时，修补主/副手以及盔甲栏的工具与护甲"
+  type: normal
+  rarity: rare
+
+vanishing_curse:
+  name: "消失诅咒"
+  description: "死亡时带有该 buff 的物品会被销毁而不是掉落"
+  type: curse
+  rarity: epic
+
+soul_speed:
+  name: "灵魂疾行"
+  description: "在灵魂沙和灵魂土上行走速度增加 &a%placeholder%%"
+  placeholder: "(%level% * 0.105) + 1.3"
+  type: normal
+  rarity: epic
+
+swift_sneak:
+  name: "迅捷潜行"
+  description: "减少潜行时的移动减缓 &a%placeholder%%"
+  placeholder: "min(%level% * 15, 100)"
+  type: normal
+  rarity: epic
+
+density:
+  name: "致密"
+  description: "使重锤每一格增加 &a%placeholder%&r 的额外伤害"
+  placeholder: "0.5 * %level%"
+  type: normal
+  rarity: common
+
+breach:
+  name: "破甲"
+  description: "减少目标护甲效果 &a%placeholder%%"
+  placeholder: "15 * %level%"
+  type: normal
+  rarity: rare
+
+wind_burst:
+  name: "风爆"
+  description: "重锤触发重击造成 &a%placeholder% 击退威力的风弹爆炸"
+  placeholder: "1.15 + 0.35 * %level%"
+  type: normal
+  rarity: legendary

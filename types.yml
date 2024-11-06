@@ -1,0 +1,28 @@
+# 附魔类型类似于分类。
+# 它们在物品说明中显示颜色，它们有一个可选的限制
+# 即任何物品上可以有多少个某种类型的附魔，等等。
+
+types:
+  - id: normal # 该类型的ID
+    format: "&7" # 这种类型的附魔在显示时的格式
+    limit: -1 # 物品上该类型的附魔最大数量（-1表示无限制）
+    high-level-bias: 0 # 获取该类型的高等级附魔的倾向。0到1之间，0表示无倾向，1表示仅1级。
+    no-grindstone: false # 如果该类型的附魔不应在砂轮上被移除
+
+  - id: curse
+    format: "&c"
+    limit: -1
+    high-level-bias: 0
+    no-grindstone: true
+
+  - id: spell
+    format: "<gradient:#0575E6:#1E3FBA>"
+    limit: 1
+    high-level-bias: 0.5
+    no-grindstone: false
+
+  - id: special
+    format: "<gradient:#FB57EC:#EF1DEC>"
+    limit: 1
+    high-level-bias: 0.7
+    no-grindstone: false

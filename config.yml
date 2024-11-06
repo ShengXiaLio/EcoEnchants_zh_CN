@@ -1,0 +1,168 @@
+#
+# EcoEnchants
+# 由 Auxilor 开发
+#
+
+# 附魔台中附魔物品的选项
+enchanting-table:
+  enabled: true # 是否可以从附魔台获得自定义附魔
+  book-multiplier: 0.5 # 获得书籍附魔的几率乘数（用于平衡附魔数量）
+  maximum-obtainable-level: 30 # 附魔台的最高等级。EcoEnchants不改变限制，但如果有其他插件这样做了，请调整此值以匹配。
+  cap: 5 # 任何给定时间可以获得的最大附魔数量
+  reduction: 2.2 # 获得每个后续附魔的几率除以这个数字，例如，第二个附魔比第一个附魔的可能性低2.2倍，第三个附魔再次低2.2倍，以此类推
+
+# 从村民处获得自定义附魔的选项
+villager:
+  enabled: true # 是否可以从村民处获得自定义附魔
+  pass-through-chance: 25 # 保留书籍原样，应用原版/无附魔的几率。
+  book-multiplier: 0.14 # 获得书籍附魔的几率乘数（用于平衡附魔数量）
+  reduction: 5 # 获得每个后续附魔的几率除以这个数字，例如，第二个附魔比第一个附魔的可能性低5倍，第三个附魔再次低5倍，以此类推
+
+# 从自然战利品中获得自定义附魔的选项
+loot:
+  enabled: true # 是否可以从自然战利品中获得自定义附魔
+  book-multiplier: 0.5 # 获得书籍附魔的几率乘数（用于平衡附魔数量）
+  reduction: 7.5 # 获得每个后续附魔的几率除以这个数字，例如，第二个附魔比第一个附魔的可能性低7.5倍，第三个附魔再次低7.5倍，以此类推
+
+# 在铁砧中合并物品的选项
+anvil:
+  cost-exponent: 0.95 # 每个附魔等级的指数，以防止持续出现“太贵了！”的问题
+  enchant-limit: -1 # 物品上附魔数量的限制（-1表示禁用）
+  use-rework-penalty: true # 是否应用重做惩罚
+  max-repair-cost: 40 # 覆盖最大修复成本（-1使其无限）。“太贵”的消息不能被移除，但这纯粹是视觉上的。
+
+# 物品上附魔显示的选项
+display:
+  # 如果你禁用显示，附魔将不会显示在物品上。只有在你在其他地方处理显示时才禁用。
+  # 更改此设置将需要重启服务器。
+  enabled: true
+
+  numerals:
+    enabled: true # 是否使用数字表示附魔等级
+    threshold: 10 # 超过这个值，将使用数字而不是数字符号
+
+  # 未满足条件的附魔行的选项：https://plugins.auxilor.io/effects/configuring-a-condition#example-condition-config
+  not-met:
+    format: "<strikethrough>" # 任何未满足条件的附魔行激活时，将添加此格式
+
+  above-max-level:
+    enabled: true # 如果超过最大等级的附魔应该有自定义格式
+    format: "<gradient:#1D976C:#93F9B9>" # 应用的格式
+    level-only: true # 是否只格式化等级
+
+  sort:
+    type: false # 是否按类型排序附魔
+    type-order: # 类型排序的顺序。如果启用类型排序，此列表中未列出的类型将不会被显示。
+      - normal
+      - special
+      - curse
+
+    length: false # 是否按长度排序附魔
+
+    rarity: false # 是否按稀有度排序附魔
+    rarity-order: # 稀有度排序的顺序。如果启用稀有度排序，此列表中未列出的稀有度将不会被显示。
+      - common
+      - uncommon
+      - rare
+      - epic
+      - legendary
+      - special
+      - veryspecial
+
+  collapse:
+    enabled: true # 是否在物品说明中折叠附魔
+    threshold: 9 # 超过这个数量，附魔将被折叠
+    per-line: 2 # 每行放置的附魔数量
+    delimiter: ",&r " # 附魔之间的分隔符
+
+  descriptions:
+    enabled: true # 是否在物品说明中显示附魔描述
+    threshold: 5 # 超过这个数量，将不显示附魔描述
+    word-wrap: 27 # 每行的字符数
+    format: "&8"
+
+  require-enchantable: true # 如果EcoEnchants不应该在不可附魔的物品上显示。
+
+# /enchantinfo GUI的选项
+enchantinfo:
+  rows: 3 # GUI的行数
+  mask: # 背景材料
+    items:
+      - black_stained_glass_pane
+    pattern: # 1代表第一个物品，2代表第二个物品，以此类推
+      - "111111111"
+      - "111101111"
+      - "111111111"
+  item:
+    row: 2
+    column: 5
+    show-max-level: true # 书籍是否应该显示最大等级或1级
+    lore: # 描述会自动附加
+      - ""
+      - "&f最大等级：&a%max_level%"
+      - "&f稀有度：&a%rarity%"
+      - "&f适用物品：&a%targets%"
+      - "&f冲突附魔：&a%conflicts%"
+
+  # 自定义GUI槽位；如何操作请参阅：https://plugins.auxilor.io/all-plugins/custom-gui-slots
+  custom-slots: [ ]
+
+# 附魔GUI的选项
+enchant-gui:
+  rows: 6 # GUI的行数
+  title: "附魔 GUI" # GUI的标题
+
+  mask: # 背景材料
+    items:
+      - black_stained_glass_pane
+    pattern: # 1代表第一个物品，2代表第二个物品，以此类推
+      - "111101111"
+      - "111111111"
+      - "100000001"
+      - "100000001"
+      - "100000001"
+      - "111111111"
+
+  # 当没有附魔书籍时显示的空物品
+  empty-item: gray_stained_glass_pane name:""
+
+  # 信息物品的选项
+  info:
+    item: player_head name:"&a我该如何使用这个？" texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0=
+    lore:
+      - "&f将物品放入顶部的槽位，"
+      - "&f所有你可以添加的附魔"
+      - "&f将显示在下方的区域！"
+    row: 1
+    column: 9
+
+  item-row: 1 # 放入物品的槽位行
+  item-column: 5 # 放入物品的槽位列
+
+  # 页面切换按钮的选项
+  page-change:
+    forwards:
+      item: arrow name:"&f下一页" # 物品。如果是最后一页则不会显示。
+      row: 6
+      column: 6
+    backwards:
+      item: arrow name:"&f上一页" # 物品。如果是第一页则不会显示。
+      row: 6
+      column: 4
+
+  # 显示附魔的区域选项
+  enchant-area:
+    width: 7 # 附魔区域的宽度
+    height: 3 # 附魔区域的高度
+    row: 3 # 区域左上角的行
+    column: 2 # 区域左上角的列
+
+  # 自定义GUI槽位；如何操作请参阅：https://plugins.auxilor.io/all-plugins/custom-gui-slots
+  custom-slots: [ ]
+
+# 将基于说明的附魔（来自其他插件）与EcoEnchants附魔
+# 使用相同名称进行转换的选项。如果你从另一个插件切换过来，并且不希望玩家
+# 丢失他们的附魔，只需打开这个开关。
+lore-conversion:
+  enabled: false # 是否启用说明转换
+  aggressive: false # 会在打开所有库存时转换所有物品，可能会大量消耗性能

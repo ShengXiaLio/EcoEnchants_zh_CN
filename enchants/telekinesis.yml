@@ -1,0 +1,20 @@
+display-name: "心灵传动"
+description: "物品和经验直接进入你的背包"
+type: normal
+
+targets:
+  - pickaxe
+  - sword
+  - axe
+conflicts: [ ]
+rarity: common
+max-level: 1
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: telekinesis
+
+conditions: [ ]

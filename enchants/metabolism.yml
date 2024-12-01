@@ -1,5 +1,5 @@
 display-name: "新陈代谢"
-description: "通过吃食物获得的饥饿度增加&a%placeholder%%"
+description: "通过进食获得的饥饿度增加&a%placeholder%%"
 placeholder: "%level% * 12.5"
 type: normal
 

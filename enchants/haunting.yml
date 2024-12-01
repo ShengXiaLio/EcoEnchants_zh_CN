@@ -1,5 +1,5 @@
-display-name: "鬼魂"
-description: "死亡时产生&a%placeholder%&r秒的伤害云"
+display-name: "自爆"
+description: "死亡后产生&a%placeholder%&r秒的伤害云"
 placeholder: "1 + %level%"
 type: normal
 

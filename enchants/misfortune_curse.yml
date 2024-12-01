@@ -1,4 +1,4 @@
-display-name: "不幸的诅咒"
+display-name: "霉运"
 description: "有&a%placeholder%% &r的几率使方块不掉落物品"
 placeholder: "15 * %level%"
 type: curse

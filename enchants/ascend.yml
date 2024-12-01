@@ -1,5 +1,5 @@
-display-name: "升空"
-description: "使你在空中悬浮&a%placeholder%&r秒"
+display-name: "悬浮"
+description: "在空中悬浮&a%placeholder%&r秒"
 placeholder: "%level% / 4"
 type: spell
 

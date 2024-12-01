@@ -1,4 +1,4 @@
-display-name: "炸药"
+display-name: "爆破"
 description: "在&a%placeholder%x%placeholder%&r的区域内挖掘方块"
 placeholder: "1 + %level% * 4"
 type: spell

@@ -1,4 +1,4 @@
-display-name: "下界亲和力"
+display-name: "下界眷顾"
 description: "在下界增加造成的伤害&a%placeholder%%"
 placeholder: "20 + %level% * 10"
 type: normal

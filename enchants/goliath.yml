@@ -1,5 +1,5 @@
-display-name: "巨人"
-description: "每当对手的生命值超过你时，造成&a%damage%x &r的额外伤害，最多&a%limit%x"
+display-name: "劣势爆发"
+description: "当目标生命值超过你时，对其造成&a%damage%x &r的额外伤害，最多&a%limit%x"
 placeholders:
   damage: "0.5 + %level% * 0.1"
   limit: "1.6 + %level% * 0.4"

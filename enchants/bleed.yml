@@ -1,5 +1,5 @@
 display-name: "流血"
-description: "有&a%placeholder%%&r的几率使对手流血，持续造成伤害"
+description: "有&a%placeholder%%&r的几率使目标持续掉血"
 placeholder: "1.5 * %level%"
 type: normal
 

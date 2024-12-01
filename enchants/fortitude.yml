@@ -1,4 +1,4 @@
-display-name: "坚忍"
+display-name: "伤害提升"
 description: "造成的伤害增加&a%placeholder%%&r"
 placeholder: "%level% * 2"
 type: normal

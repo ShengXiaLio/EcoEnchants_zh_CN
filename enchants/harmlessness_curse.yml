@@ -1,4 +1,4 @@
-display-name: "无害诅咒"
+display-name: "攻击免疫"
 description: "有&a%placeholder%%&r的几率使攻击无效"
 placeholder: "15 * %level%"
 type: curse

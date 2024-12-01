@@ -1,4 +1,4 @@
-display-name: "雕刻"
+display-name: "旋风斩"
 description: "挥舞时对周围&a%radius%&r格内的实体造成&a%damage%&r伤害"
 placeholders:
   radius: "1 + %level%"

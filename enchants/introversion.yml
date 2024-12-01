@@ -1,4 +1,4 @@
-display-name: "内向"
+display-name: "近战提升"
 description: "对玩家的近战伤害增加&a%placeholder%&r"
 placeholder: "2.5 * %level%"
 type: normal

@@ -1,4 +1,4 @@
-display-name: "瘟疫"
+display-name: "毒雾落地"
 description: "有&a%placeholder%%&r的几率在三叉戟落地时产生一团毒云"
 placeholder: "5 * %level%"
 type: normal

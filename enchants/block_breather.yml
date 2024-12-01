@@ -1,5 +1,5 @@
-display-name: "屏息"
-description: "有&a%placeholder%% &r的几率无视窒息伤害"
+display-name: "窒息免疫"
+description: "有&a%placeholder%% &r的几率免疫窒息伤害"
 placeholder: "%level% * 15"
 type: normal
 

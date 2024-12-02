@@ -1,5 +1,5 @@
-display-name: "下界眷顾"
-description: "在下界增加造成的伤害&a%placeholder%%"
+display-name: "下界之力"
+description: "在下界增加伤害 &a%placeholder%%"
 placeholder: "20 + %level% * 10"
 type: normal
 

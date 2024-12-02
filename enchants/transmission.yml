@@ -1,5 +1,5 @@
 display-name: "传送"
-description: "将你向前传送&a%placeholder%&8个方块"
+description: "向前传送 &a%placeholder%&r 个方块"
 placeholder: "3 + %level% * 2"
 type: spell
 

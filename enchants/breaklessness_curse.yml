@@ -1,5 +1,5 @@
 display-name: "破坏诅咒"
-description: "有&a%placeholder%%&r的几率使目标无法破坏方块"
+description: "有 &a%placeholder%%&r 的几率使对手无法破坏方块"
 placeholder: "15 * %level%"
 type: curse
 

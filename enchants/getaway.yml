@@ -1,5 +1,5 @@
 display-name: "生死一线"
-description: "当生命值低于&a20%&r时，移动速度增加&a%placeholder%%&r"
+description: "当生命值低于 &a20%&r 时，移动速度增加 &a%placeholder%%&r "
 placeholder: "10 * %level%"
 type: normal
 

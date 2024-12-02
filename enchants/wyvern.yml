@@ -1,5 +1,5 @@
-display-name: "飞龙"
-description: "增加&a%placeholder%%&r的近战伤害"
+display-name: "翼刃"
+description: "增加 &a%placeholder%%&r 的近战伤害"
 placeholder: "10 * %level%"
 type: normal
 

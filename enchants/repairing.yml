@@ -1,5 +1,5 @@
-display-name: "修复"
-description: "每&a%frequency%&r秒自动获得&a%amount%&r耐久度"
+display-name: "耐久修复"
+description: "每 &a%frequency%&r 秒自动获得 &a%amount%&r 耐久度"
 type: special
 placeholders:
   frequency: "1.5"

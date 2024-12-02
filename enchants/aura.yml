@@ -1,5 +1,5 @@
 display-name: "群体减伤"
-description: "&a%radius%&r格范围内，玩家受到的伤害减少&a%reduction%%&r"
+description: " &a%radius%&r 格范围内，玩家受到的伤害减少 &a%reduction%%&r "
 placeholders:
   reduction: "%level% * 10"
   radius: "3 + %level% * 2"

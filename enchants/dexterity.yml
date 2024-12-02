@@ -1,5 +1,5 @@
 display-name: "攻速提升"
-description: "攻击速度增加&a%placeholder%%"
+description: "攻击速度增加 &a%placeholder%%"
 placeholder: "%level% * 10"
 type: normal
 

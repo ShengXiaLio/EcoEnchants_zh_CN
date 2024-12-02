@@ -1,5 +1,5 @@
 display-name: "火箭节省者"
-description: "有&a%placeholder%%&r的几率在使用助推时不消耗烟花"
+description: "有 &a%placeholder%%&r 的几率在使用助推时不消耗烟花"
 placeholder: "%level% * 20"
 type: normal
 

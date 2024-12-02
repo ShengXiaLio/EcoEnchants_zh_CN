@@ -1,5 +1,5 @@
 display-name: "流线型"
-description: "增加&a%placeholder%%&r的移动速度"
+description: "增加 &a%placeholder%%&r 的移动速度"
 placeholder: "%level% * 5"
 type: normal
 

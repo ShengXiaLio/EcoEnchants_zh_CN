@@ -1,5 +1,5 @@
 display-name: "疾速逃脱"
-description: "受到伤害后获得&a%placeholder%%&r的短暂加速效果"
+description: "受到伤害后获得 &a%placeholder%%&r 的短暂加速效果"
 placeholder: "%level%"
 type: normal
 

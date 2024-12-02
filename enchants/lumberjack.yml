@@ -1,5 +1,5 @@
 display-name: "伐木工"
-description: "一次性砍伐多达&a%placeholder%&r个方块的树木"
+description: "一次性砍伐多达 &a%placeholder%&r 个方块的树木"
 placeholder: "4 * %level%"
 type: normal
 

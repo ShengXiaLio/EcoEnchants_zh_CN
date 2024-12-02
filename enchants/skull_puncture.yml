@@ -1,5 +1,5 @@
 display-name: "颅骨穿刺"
-description: "增加爆头伤害&a%placeholder%%"
+description: "增加爆头伤害 &a%placeholder%%"
 placeholder: "10 * %level%"
 type: normal
 

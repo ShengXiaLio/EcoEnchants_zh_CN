@@ -1,5 +1,5 @@
 display-name: "滑流"
-description: "手持时增加&a%placeholder%%&r的移动速度"
+description: "手持时增加 &a%placeholder%%&r 的移动速度"
 placeholder: "%level% * 8"
 type: normal
 

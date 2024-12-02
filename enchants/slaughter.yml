@@ -1,5 +1,5 @@
-display-name: "屠杀"
-description: "对被动生物的近战伤害增加&a%placeholder%&r"
+display-name: "屠戮"
+description: "对被动生物的近战伤害增加 &a%placeholder%&r "
 placeholder: "2.5 * %level%"
 type: normal
 

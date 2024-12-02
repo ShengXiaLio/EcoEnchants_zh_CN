@@ -1,5 +1,5 @@
 display-name: "矿脉挖掘者"
-description: "一次性最多挖掘&a%placeholder%&r个矿脉方块"
+description: "一次性最多挖掘 &a%placeholder%&r 个矿石块"
 placeholder: "2 + 3 * %level%"
 type: normal
 

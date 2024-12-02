@@ -1,5 +1,5 @@
 display-name: "终结"
-description: "目标每缺少一个百分点的生命值，增加&a%placeholder%%&r的伤害"
+description: "目标每缺少一个百分点的生命值，增加 &a%placeholder%%&r 的伤害"
 placeholder: "0.2 * %level%"
 type: normal
 

@@ -1,5 +1,5 @@
 display-name: "毒藤"
-description: "每造成一颗心的伤害，使攻击者中毒&a%seconds%&r秒，最多&a%limit%&r秒"
+description: "每造成一颗心的伤害，使攻击者中毒 &a%seconds%&r 秒，最多 &a%limit%&r 秒"
 placeholders:
   seconds: "0.5 * %level%"
   limit: "4 + %level%"

@@ -1,5 +1,5 @@
 display-name: "先发制人"
-description: "对满血目标造成&a%placeholder%%&r的额外伤害"
+description: "对满血目标造成 &a%placeholder%%&r 的额外伤害"
 placeholder: "30 + 20 * %level%"
 type: normal
 

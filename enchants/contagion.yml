@@ -1,5 +1,5 @@
-display-name: "毒雾落地"
-description: "有&a%placeholder%%&r的几率在三叉戟落地时产生一团毒云"
+display-name: "毒刺之地"
+description: "有 &a%placeholder%%&r 的几率在三叉戟落地处产生一片伤害云区域"
 placeholder: "5 * %level%"
 type: normal
 

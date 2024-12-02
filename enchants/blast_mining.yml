@@ -1,5 +1,5 @@
 display-name: "区域挖掘"
-description: "有&a%placeholder%%&r的几率，挖掘3x3区域的方块"
+description: "有 &a%placeholder%%&r 的几率，挖掘 3x3 区域的方块"
 placeholder: "5 * %level%"
 type: special
 

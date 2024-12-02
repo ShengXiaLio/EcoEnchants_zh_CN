@@ -1,5 +1,5 @@
 display-name: "冲刺之锋"
-description: "在冲刺时给予&a%placeholder%%&r的攻击速度加成"
+description: "在冲刺时给予 &a%placeholder%%&r 的攻击速度加成"
 placeholder: "5 * %level%"
 type: normal
 

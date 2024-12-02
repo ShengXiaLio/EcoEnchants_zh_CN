@@ -1,5 +1,5 @@
-display-name: "修壳收获"
-description: "增加修壳掉落的&a%placeholder%%"
+display-name: "潜影壳收获"
+description: "增加潜影壳掉落的 &a%placeholder%%"
 placeholder: "ceil(((1 / (%level% + 4)) + ((%level% + 3) / 2)) * 100 - 100)"
 type: normal
 

@@ -1,20 +1,20 @@
 # EcoEnchants_zh_CN
 
-
-
 EcoEnchants汉化
 
 汉化版本基于`EcoEnchants v12.19.3`
 
-附魔名称手工翻译，我将根据自己的使用习惯，修改为我认为更贴合附魔效果描述的中文名称，更适合中国宝宝体制
+附魔名称手工翻译，我将根据自己的使用习惯，修改为我认为更贴合附魔效果描述的中文名称，更适合中国宝宝体质
 
 翻译原则：
 
-​	1.贴近原版附魔名称，不标新立异
+​	1.直译与意译结合
 
-​	2.名称应当准确符合描述，通俗易懂
+​	2.用词向原版附魔名称靠拢
 
-如果您觉得我的翻译不准确，或者有更合适的名称，欢迎贡献您的智慧
+​	3.通俗易懂
+
+如果觉得我的翻译不准确，或者有更合适的翻译，欢迎贡献您的智慧，迫切希望您的参与！
 
 
 
@@ -69,7 +69,7 @@ charge 突进
 confusion 混乱
 有几率打乱目标快捷栏
 
-contagion 毒雾落地
+contagion 毒刺之地
 有几率在三叉戟落地的地方产生毒云
 
 criticals 暴伤提升
@@ -84,7 +84,7 @@ dexterity 攻速提升
 dynamite 爆破
 在 NxN 的区域内挖掘方块
 
-end_affinity 末地眷顾
+end_affinity 末地之力
 在末地增强伤害
 
 ender_slayer 末影杀手
@@ -105,7 +105,7 @@ finishing 终结
 first_strike 先发制人
 对满血目标造成额外伤害
 
-flashbang 闪光弹
+flashbang 致盲
 有几率致盲目标
 
 foraging 觅食
@@ -120,8 +120,8 @@ frost 霜冻
 getaway 生死一线
 生命值低于20%，移动速度增加
 
-goliath 劣势爆发
-当目标生命值超过你，对其造成额外伤害
+goliath 逆势回击
+对手生命值超过你，对其造成额外伤害
 
 harmlessness_curse 攻击免疫
 有几率对你攻击无效
@@ -153,15 +153,116 @@ metabolism 新陈代谢
 misfortune_curse 霉运
 有几率破坏方块却不掉落
 
-nether_affinity 下界眷顾
+nether_affinity 下界之力
 在下界，攻击伤害增加
 
-nether_prospector 下界勘探
-增加古代残骸掉落几率
+nether_prospector 下界勘探者
+增加残骸掉落几率
 
-ninja 忍者
+ninja 潜行忍者
 潜行时伤害提升
 
-待续。。。
+one_for_all 团结就是力量
+伤害暴涨，但与其他所有附魔冲突
+
+permanence_curse 永恒诅咒
+物品无法在铁砧被修改
+
+poison_ivy 毒藤
+每造成一颗心的伤害，使攻击者中毒
+
+rapid 快速射击
+弓不必完全张开，就可以全速射出箭矢
+
+rebounding 反弹
+将伤害反弹给攻击者
+
+repairing 耐久修复
+自动恢复耐久度
+
+replenish 补种
+作物自动重新种植
+
+rocket_saver 火箭节省者
+飞行助推时，有几率不消耗烟花火箭
+
+rumble 震动
+一定区域内，对所有实体造成伤害
+
+shulker_harvest 潜影壳收获
+潜影壳掉落率增加
+
+shura 绝境爆发
+生命值低于 50%，暴击伤害增加
+
+skull_puncture 颅骨穿刺 
+增加爆头伤害
+
+slaughter 屠戮
+对被动生物近战伤害增加
+
+slipstream 滑流
+手持时增加 X 的移动速度
+
+snipe 狙击
+箭矢每飞行 X 个方块，造成&a%damage%%&r的额外伤害
+
+soul_storm 灵魂风暴
+以牺牲 X 颗心为代价，获得攻击伤害加成
+
+soulbound 灵魂绑定
+死亡时保留该物品
+
+sparks 电闪雷鸣
+在风暴中钩住敌人有几率引发雷电
+
+stamina 耐力
+减少冲刺时的饥饿度损失
+
+streamlining 流线型
+增加 X 的移动速度
+
+stun 晕眩
+有几率使被攻击的目标晕眩
+
+telekinesis 自动拾取
+物品和经验直接进入你的背包
+
+thor 雷神之怒
+有几率在目标身上引发雷电
+
+thrive 生机勃发
+增加额外生命值
+
+transmission 传送
+向前传送 X 个方块
+
+tripleshot 三重射击
+一次性射出三只箭
+
+vanish 遁形
+受到伤害后有几率隐身
+
+veinminer 矿脉挖掘者
+一次性最多挖掘 X 个矿石块
+
+vitality 生命复苏
+恢复满血状态
+
+warp_drive 箭跃
+用箭矢击中对手时，将你传送到他们身边
+
+wisdom 智慧之赐
+增加掉落的经验值
+
+wound 创伤
+有几率使对手在 X 秒内受到伤害
+
+wyvern 翼刃
+增加飞行的近战伤害
+
+xray 透视
+一定区域内的矿石发光
+
 ```
 

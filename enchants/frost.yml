@@ -1,5 +1,5 @@
 display-name: "霜冻"
-description: "有&a%chance%%&r几率使目标冻结&a%seconds%&r秒"
+description: "有 &a%chance%%&r 几率使目标冻结 &a%seconds%&r 秒"
 placeholders:
   chance: "3 + 2 * %level%"
   seconds: "2 + %level%"

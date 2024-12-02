@@ -1,5 +1,5 @@
 display-name: "晕眩"
-description: "有&a%placeholder%%&r的几率使被攻击的生物晕眩&a2&r秒"
+description: "有 &a%placeholder%%&r 的几率使被攻击的生物晕眩 &a2&r 秒"
 placeholder: "2.5 + 2.5 * %level%"
 type: normal
 

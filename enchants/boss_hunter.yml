@@ -1,5 +1,5 @@
 display-name: "Boss杀手"
-description: "对 Boss 造成&a%placeholder%%&r的额外伤害"
+description: "对 Boss 造成 &a%placeholder%%&r 的额外伤害"
 placeholder: "10 * %level%"
 type: normal
 

@@ -1,5 +1,5 @@
 display-name: "反弹"
-description: "将&a%placeholder%%&r的来犯伤害反弹给攻击者"
+description: "将 &a%placeholder%%&r 的来犯伤害反弹给攻击者"
 placeholder: "20 + %level% * 10"
 type: normal
 

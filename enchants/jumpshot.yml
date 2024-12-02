@@ -1,5 +1,5 @@
 display-name: "跳投"
-description: "在空中时造成&a%placeholder%%&r的额外伤害"
+description: "在空中时造成 &a%placeholder%%&r 的额外伤害"
 placeholder: "10 * %level%"
 type: normal
 

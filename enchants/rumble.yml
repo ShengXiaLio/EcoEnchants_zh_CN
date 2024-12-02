@@ -1,5 +1,5 @@
 display-name: "震动"
-description: "对所有实体造成&a%damage%&r伤害，并在&a%radius%&r块范围内"
+description: "对所有实体造成 &a%damage%&r 伤害，并在 &a%radius%&r 块范围内"
 placeholders:
   radius: "2 + %level%"
   damage: "3 * %level%"

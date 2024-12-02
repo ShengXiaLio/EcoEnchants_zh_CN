@@ -1,5 +1,5 @@
 display-name: "狙击"
-description: "箭矢每飞行&a%blocks%&r个方块，造成&a%damage%%&r的额外伤害"
+description: "箭矢每飞行 &a%blocks%&r 个方块，造成 &a%damage%%&r 的额外伤害"
 placeholders:
   damage: "1 * %level%"
   blocks: "11 - ceil(%level% / 2)"

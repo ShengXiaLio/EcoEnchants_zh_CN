@@ -1,5 +1,5 @@
 display-name: "快速射击"
-description: "在弓的张力为&a%placeholder%%&r时，可以以全速射出箭矢"
+description: "在弓的张力为 &a%placeholder%%&r 时，可以全速射出箭矢"
 placeholder: "100 - (15 * %level%)"
 type: normal
 

@@ -1,5 +1,5 @@
-display-name: "生机"
-description: "增加&a%placeholder%&r额外生命值"
+display-name: "生机勃发"
+description: "增加 &a%placeholder%&r 额外生命值"
 placeholder: "%level%"
 type: normal
 

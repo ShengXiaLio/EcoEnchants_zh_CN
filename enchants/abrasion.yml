@@ -1,5 +1,5 @@
 display-name: "耐久耗损"
-description: "对目标护甲造成&a%placeholder%&r点耐久磨损"
+description: "使对方护甲耐久度下降 &a%placeholder%&r 点"
 placeholder: "%level%"
 type: normal
 

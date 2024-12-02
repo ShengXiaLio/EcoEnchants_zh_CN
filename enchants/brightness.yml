@@ -1,5 +1,5 @@
 display-name: "暗影打击"
-description: "在深暗中对监守者造成&a%placeholder%%&r额外伤害"
+description: "在深暗中对监守者造成 &a%placeholder%%&r 的额外伤害"
 placeholder: "4 * %level%"
 type: common
 

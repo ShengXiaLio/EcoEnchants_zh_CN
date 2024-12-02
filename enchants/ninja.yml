@@ -1,5 +1,5 @@
-display-name: "忍者"
-description: "潜行时造成&a+%placeholder%&r伤害"
+display-name: "潜行忍者"
+description: "潜行时造成 &a+%placeholder%&r 伤害"
 placeholder: "0.5 + %level% * 0.5"
 type: normal
 

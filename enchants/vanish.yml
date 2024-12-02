@@ -1,5 +1,5 @@
-display-name: "消失"
-description: "受到伤害后有&a%chance%%&r的几率隐形&a%seconds%&r秒"
+display-name: "遁形"
+description: "受到伤害后有 &a%chance%%&r 的几率隐身 &a%seconds%&r 秒"
 placeholders:
   chance: "2 * %level%"
   seconds: "0.5 + floor(%level% / 4)"

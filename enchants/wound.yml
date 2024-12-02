@@ -1,5 +1,5 @@
-display-name: "伤口"
-description: "有&a%chance%%&r的几率使对手在&a%duration%&r秒内受到&a%damage%&r伤害"
+display-name: "创伤"
+description: "有 &a%chance%%&r 的几率使对手在 &a%duration%&r 秒内受到 &a%damage%&r 伤害"
 placeholders:
   chance: "%level% * 3"
   duration: "0.75 * (%level% + 2)"

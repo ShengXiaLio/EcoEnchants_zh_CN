@@ -1,5 +1,5 @@
 display-name: "突进"
-description: "以&a%placeholder%x&r的速度向前冲刺"
+description: "以 &a%placeholder%x&r 的速度向前冲刺"
 placeholder: "5 * %level%"
 type: spell
 

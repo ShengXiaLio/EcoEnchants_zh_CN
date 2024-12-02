@@ -1,5 +1,5 @@
-display-name: "智慧"
-description: "增加掉落的经验值&a%placeholder%%"
+display-name: "智慧之赐"
+description: "增加掉落的经验值 &a%placeholder%%"
 placeholder: "100 + %level% * 20"
 type: normal
 

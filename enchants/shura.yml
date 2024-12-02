@@ -1,5 +1,5 @@
-display-name: "修罗"
-description: "当生命值低于一半时，暴击伤害增加&a%placeholder%x&r"
+display-name: "绝境爆发"
+description: "当生命值低于一半时，暴击伤害增加 &a%placeholder%x&r "
 placeholder: "1 + 0.25 * %level%"
 type: normal
 

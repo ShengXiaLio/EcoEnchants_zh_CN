@@ -1,5 +1,5 @@
 display-name: "悬浮"
-description: "在空中悬浮&a%placeholder%&r秒"
+description: "在空中悬浮 &a%placeholder%&r 秒"
 placeholder: "%level% / 4"
 type: spell
 

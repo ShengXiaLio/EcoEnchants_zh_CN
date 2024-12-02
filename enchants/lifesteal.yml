@@ -1,5 +1,5 @@
 display-name: "生命偷取"
-description: "治疗造成的伤害的&a%placeholder%%&r"
+description: "治疗造成的伤害的 &a%placeholder%%&r "
 placeholder: "%level% * 10"
 type: normal
 

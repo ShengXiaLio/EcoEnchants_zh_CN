@@ -1,5 +1,5 @@
 display-name: "自爆"
-description: "死亡后产生&a%placeholder%&r秒的伤害云"
+description: "死亡后产生 &a%placeholder%&r 秒的伤害云区域"
 placeholder: "1 + %level%"
 type: normal
 

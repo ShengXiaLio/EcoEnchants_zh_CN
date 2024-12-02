@@ -1,5 +1,5 @@
-display-name: "火花"
-description: "在风暴中钩住敌人有&a%chance%%&r的几率引发雷电，造成&a%damage%&r伤害"
+display-name: "电闪雷鸣"
+description: "在风暴中钩住敌人有 &a%chance%%&r 的几率引发雷电，造成 &a%damage%&r 伤害"
 placeholders:
   damage: "1 + %level%"
   chance: "25 + 5 * %level%"

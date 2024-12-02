@@ -1,5 +1,5 @@
-display-name: "雷神"
-description: "有&a%chance%%&r的几率在对手身上引发&a%bolts%&r道闪电"
+display-name: "雷神之怒"
+description: "有 &a%chance%%&r 的几率在对手身上引发 &a%bolts%&r 道闪电"
 placeholders:
   chance: "%level%"
   bolts: "ceil(%level% / 2)"

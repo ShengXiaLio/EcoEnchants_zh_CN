@@ -1,5 +1,5 @@
 display-name: "反击"
-description: "在抵抗攻击时，获得&a%placeholder%&r秒的力量效果"
+description: "抵抗攻击时，获得 &a%placeholder%&r 秒的力量效果"
 placeholder: "1 + %level% / 2"
 type: normal
 

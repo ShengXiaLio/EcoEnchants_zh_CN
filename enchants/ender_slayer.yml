@@ -1,5 +1,5 @@
 display-name: "末影杀手"
-description: "对末地生物的近战伤害增加&a%placeholder%&r"
+description: "对末地生物的近战伤害增加 &a%placeholder%&r "
 placeholder: "1 + 0.5 * %level%"
 type: normal
 

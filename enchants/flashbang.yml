@@ -1,5 +1,5 @@
-display-name: "闪光弹"
-description: "有&a%placeholder%%&r的几率致盲目标"
+display-name: "致盲"
+description: "有 &a%placeholder%%&r 的几率致盲目标"
 placeholder: "%level%"
 type: normal
 

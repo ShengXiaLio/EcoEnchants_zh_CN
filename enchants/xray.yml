@@ -1,5 +1,5 @@
 display-name: "透视"
-description: "使&a%radius%&r范围内的矿石在&a%seconds%&r秒内透过墙壁发光"
+description: "使 &a%radius%&r 范围内的矿石在 &a%seconds%&r 秒内透过墙壁发光"
 placeholders:
   seconds: "1 + %level%"
   radius: "3 + 2 * %level%"
